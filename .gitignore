@@ -1,0 +1,8 @@
+*__pycache__
+*.npy
+*.npz
+*.dat
+*.h5m
+*.png
+*.vtk
+*.csv

@@ -34,7 +34,7 @@ class Ass:
                 self.Newton(M)
                 self.i+=1
                 filepath = 'output/production_data.xlsx'
-            try:
+            try:                
                 old=pd.read_excel(filepath)
                 data=np.hstack([old,self.data])
                 print('Appended to an old file')
